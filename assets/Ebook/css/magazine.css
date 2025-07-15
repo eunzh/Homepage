@@ -1,5 +1,5 @@
 body {
-	font-family: 'Pretendard';
+	font-family: 'NanumSquareNeo';
 	overflow: hidden;
 	background: url(../pics/ebook_bg.jpg) no-repeat center top;/* 배경 */
 	background-size: cover;
@@ -17,17 +17,17 @@ body {
 	z-index: 100;
 	display: inline-block;
 	padding: 10px 20px;
-	border-radius: 10px;
+	border-radius: 50px;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	background: #fff;
-	border: 2px solid #44584c;
-	color: #44584c;
+	border: 2px solid #f2561d;
+	color: #f2561d;
 	font-weight: bold;
 	text-decoration: none;
 }
 
 .btn_1:hover{
-	background-color: #44584c;
+	background-color: #f2561d;
 	color: #fff;
 }
 
@@ -161,7 +161,6 @@ body {
 	-moz-transition: -moz-box-shadow 0.5s;
 	-o-transition: -webkit-box-shadow 0.5s;
 	-ms-transition: -ms-box-shadow 0.5s;
-
 	-webkit-box-shadow: 0 0 20px #ccc;
 	-moz-box-shadow: 0 0 20px #ccc;
 	-o-box-shadow: 0 0 20px #ccc;

@@ -1,12 +1,12 @@
-/* Extra small devices (phones, less than 339px) */
-@media (max-width : 339px) {
-	.m-skill {
-		margin-bottom: 60px;
-	}
-}
-
 /* Extra small devices (phones, less than 768px) */
 @media (max-width : 766px) {
+	.navbar-header {
+		display: block;
+	}
+	.navbar-nav{
+		display: block;
+	}
+
 	.intro h1 {
 		font-size: 40px;
 		line-height: 40px;
@@ -54,7 +54,7 @@
 
 
 	/*  Popup Section */
-	.popup_in{
+	.popup_in {
 		height: 80vh;
 		align-items: center;
 		align-content: space-between;
@@ -176,6 +176,42 @@
 		padding: 5px 10px;
 		font-size: 15px;
 		margin-right: 0;
+	}
+}
+
+@media(max-width : 450px){
+	#contact h5{
+		font-size: 15px;
+	}
+	#contact h3{
+		font-size: 20px;
+	}
+
+}
+
+/* Extra small devices (phones, less than 339px) */
+@media (max-width : 395px) {
+	#contact h5{
+		font-size: 12px;
+	}
+	#contact h3{
+		font-size: 15px;
+	}
+	.hello {
+    background: url(../images/phone.png) no-repeat 0% center / 100px;
+}
+.mail {
+    background: url(../images/mail.png) no-repeat 0% center / 100px;
+}
+#contact .mail>a {
+    padding-left: 110px;
+}
+#contact a {
+    padding-left: 95px;
+}
+
+	.m-skill {
+		margin-bottom: 60px;
 	}
 }
 
@@ -389,6 +425,14 @@
 		min-height: 162px;
 	}
 
+	#contact h3{
+		font-size: 20px;
+	}
+
+	#contact h5{
+		font-size: 15px;
+	}
+
 	/*service*/
 	.service-wrap>div {
 		margin-bottom: 100px;
@@ -408,6 +452,7 @@
 		text-align: center;
 		padding: 0 15px;
 	}
+
 
 
 }
