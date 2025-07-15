@@ -1,14 +1,14 @@
 *{margin:0; padding:0;}
 a{text-decoration:none;}
 body{
-    font-family: 'Pretendard';
+    font-family: 'NanumSquareNeo';
     font-size: 16px;
     line-height: 26px;
 }
 
 /* 배경색상 */
 .brand1{
-    background-color: #dbd4d0;
+    background-color: white;
 }
 
 /* 이미지 크기 */
@@ -35,16 +35,16 @@ img{
 
 .btn_1 li a {
 	display: inline-block;
-	padding: 10px 20px;
-	border-radius: 10px;
+	padding: 8px 15px;
+	border-radius: 50px;
 	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 	background: #fff;
-	color: #6a5445;
-	border: 2px solid #6a5445;
+	color: #f2561d;
+	border: 2px solid #f2561d;
 	font-weight: bold;
 }
 
 .btn_1 li a:hover{
-	background-color: #6a5445;
+	background-color: #f2561d;
 	color: #fff;
 }
