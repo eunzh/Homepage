@@ -1,9 +1,25 @@
+/* Small devices (tablets, 768px and up) */
+@media (max-width : 991px) {
+	.star1 {
+		/* position: absolute; */
+		left: 71%;
+		top: 10%;
+	}
+
+	.star2 {
+		left: 67%;
+		top: 5%;
+	}
+}
+
+/*  */
 /* Extra small devices (phones, less than 768px) */
 @media (max-width : 766px) {
 	.navbar-header {
 		display: block;
 	}
-	.navbar-nav{
+
+	.navbar-nav {
 		display: block;
 	}
 
@@ -179,11 +195,27 @@
 	}
 }
 
-@media(max-width : 450px){
-	#contact h5{
+/* Small devices (tablets, 768px and up) */
+@media (max-width : 710px) {
+	.star1 {
+		left: 50%;
+		margin-left: 141px;
+		top: 10%;
+	}
+
+	.star2 {
+		left: 52%;
+		margin-left: 110px;
+		top: 4%;
+	}
+}
+
+@media(max-width : 450px) {
+	#contact h5 {
 		font-size: 15px;
 	}
-	#contact h3{
+
+	#contact h3 {
 		font-size: 20px;
 	}
 
@@ -191,27 +223,43 @@
 
 /* Extra small devices (phones, less than 339px) */
 @media (max-width : 395px) {
-	#contact h5{
+	#contact h5 {
 		font-size: 12px;
 	}
-	#contact h3{
+
+	#contact h3 {
 		font-size: 15px;
 	}
+
 	.hello {
-    background: url(../images/phone.png) no-repeat 0% center / 100px;
-}
-.mail {
-    background: url(../images/mail.png) no-repeat 0% center / 100px;
-}
-#contact .mail>a {
-    padding-left: 110px;
-}
-#contact a {
-    padding-left: 95px;
-}
+		background: url(../images/phone.png) no-repeat 0% center / 100px;
+	}
+
+	.mail {
+		background: url(../images/mail.png) no-repeat 0% center / 100px;
+	}
+
+	#contact .mail>a {
+		padding-left: 110px;
+	}
+
+	#contact a {
+		padding-left: 95px;
+	}
 
 	.m-skill {
 		margin-bottom: 60px;
+	}
+
+	.star1 {
+		left: 50%;
+		margin-left: 140px;
+		top: 10%;
+	}
+
+	.star2 {
+		left: 52%;
+		top: 4%;
 	}
 }
 
@@ -257,6 +305,12 @@
 	ul.list-check li {
 		width: 50%;
 	}
+
+	/* project */
+	.blog-post-wrapper>.promo {
+		height: auto;
+	}
+
 
 
 	/*resume*/
@@ -364,102 +418,108 @@
 	}
 
 
-}
+
+	/* Small devices (tablets, 768px and up) */
+	@media (min-width : 768px) and (max-width : 991px) {
+		.navbar-custom .navbar-brand {
+			padding: 10px 15px;
+		}
+
+		.navbar-custom .navbar-nav>li>a,
+		.navbar-custom .navbar-nav .dropdown-menu>li>a {
+			font-size: 12px;
+			padding: 15px;
+		}
+
+		/*about me section*/
+		.biography {
+			margin-top: 20px;
+			margin-bottom: 45px;
+		}
 
 
-/* Small devices (tablets, 768px and up) */
-@media (min-width : 768px) and (max-width : 991px) {
-	.navbar-custom .navbar-brand {
-		padding: 10px 15px;
+		/* project */
+		.blog-post-wrapper>.promo {
+			height: auto;
+		}
+
+
+		/*resume*/
+		.resume:before,
+		.resume:after {
+			left: 0px;
+		}
+
+		/*skill section*/
+		.skill-title h3 {
+			font-size: 14px;
+		}
+
+		/*blog section*/
+		.blog-post-wrapper {
+			margin-bottom: 40px;
+		}
+
+		.entry-title {
+			padding: 30px 20px;
+		}
+
+
+		/*contact section*/
+		.contact-form {
+			margin-bottom: 40px;
+		}
+
+		.contact-section .map-icon,
+		.contact-section .mobile-icon {
+			float: left;
+		}
+
+		.center-xs {
+			text-align: left;
+		}
+
+
+		.portfolio-item {
+			min-height: 162px;
+		}
+
+		#contact h3 {
+			font-size: 20px;
+		}
+
+		#contact h5 {
+			font-size: 15px;
+		}
+
+		/*service*/
+		.service-wrap>div {
+			margin-bottom: 100px;
+		}
+
+		.service-wrap>div:nth-child(3),
+		.service-wrap>div:nth-child(4) {
+			margin-bottom: 0;
+		}
+
+		/*HOME TWO*/
+		#homeTwo:before {
+			width: 100%;
+		}
+
+		.personal-info {
+			text-align: center;
+			padding: 0 15px;
+		}
+
+
+
 	}
 
-	.navbar-custom .navbar-nav>li>a,
-	.navbar-custom .navbar-nav .dropdown-menu>li>a {
-		font-size: 12px;
-		padding: 15px;
-	}
-
-	/*about me section*/
-	.biography {
-		margin-top: 20px;
-		margin-bottom: 45px;
-	}
-
-	/*resume*/
-	.resume:before,
-	.resume:after {
-		left: 0px;
-	}
-
-	/*skill section*/
-	.skill-title h3 {
-		font-size: 14px;
-	}
-
-	/*blog section*/
-	.blog-post-wrapper {
-		margin-bottom: 40px;
-	}
-
-	.entry-title {
-		padding: 30px 20px;
-	}
-
-
-	/*contact section*/
-	.contact-form {
-		margin-bottom: 40px;
-	}
-
-	.contact-section .map-icon,
-	.contact-section .mobile-icon {
-		float: left;
-	}
-
-	.center-xs {
-		text-align: left;
-	}
-
-
-	.portfolio-item {
-		min-height: 162px;
-	}
-
-	#contact h3{
-		font-size: 20px;
-	}
-
-	#contact h5{
-		font-size: 15px;
-	}
-
-	/*service*/
-	.service-wrap>div {
-		margin-bottom: 100px;
-	}
-
-	.service-wrap>div:nth-child(3),
-	.service-wrap>div:nth-child(4) {
-		margin-bottom: 0;
-	}
-
-	/*HOME TWO*/
-	#homeTwo:before {
-		width: 100%;
-	}
-
-	.personal-info {
-		text-align: center;
-		padding: 0 15px;
-	}
-
-
-
-}
-
-/* Medium devices (desktops, 992px and up) */
-@media (min-width : 992px) and (max-width : 1199px) {
-	.portfolio-item {
-		min-height: 150px;
+	/* Medium devices (desktops, 992px and up) */
+	@media (min-width : 992px) and (max-width : 1199px) {
+		.portfolio-item {
+			min-height: 150px;
+		}
 	}
 }
