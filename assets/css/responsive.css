@@ -53,7 +53,13 @@
 	.navbar-custom .dropdown-menu {
 		margin-left: 20px;
 	}
-
+/* home section */
+#home .pc{
+	display: none;
+}
+#home .mobile{
+	display: block;
+}
 	/*about me section*/
 	.biography {
 		margin-top: 20px;
